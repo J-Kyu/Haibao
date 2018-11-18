@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jeonsang_gyu.test1">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/haibao_onlylogo1"
+        android:label="Haibao"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BottomNavigation" />
+        <activity
+            android:name=".Post.Poster_Info"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".haibao_Auth.Auth_Upload"
+            android:theme="@android:style/Theme.Dialog" />
+
+        <activity android:name=".Post.Poster_Info_two" />
+
+        <activity
+            android:name=".Auth_SignIn_PopUp"
+            android:theme="@android:style/Theme.Dialog" />
+    </application>
+
+</manifest>

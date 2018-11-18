@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="haibao_bg">#94A7D8</color>
+    <color name="bottom_nav_bg">#6B799E</color>
+    <color name="essentail_gray">#2C2C2C</color>
+    <color name="little_black">#1E1D25</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorGrey">#c3c3c3</color>
+    <color name="colorTop">#f5f8f9</color>
+    <color name="colorGrey2">#f2f1f1</color>
+
+
+
+
+</resources>
